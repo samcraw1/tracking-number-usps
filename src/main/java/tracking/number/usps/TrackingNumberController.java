@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/tracking")
-@CrossOrigin(origins = "http://localhost:3000")// or whatever the frontend URL is
+@CrossOrigin(origins = "http://localhost:5173")
 public class TrackingNumberController {
 
     private final TrackingNumberService trackingNumberService;
